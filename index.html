@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h2 class="calculator-title">Love Calculator</h2>
+        <div action="" class="calculator-form">
+            <div class="calculator-field">
+                <label class="calculator-tag">Your Name: </label>
+                <input type="text" placeholder="Enter your name" id="name1">
+            </div>
+            <div class="calculator-field">
+                <label class="calculator-tag">Partner's Name: </label>
+                <input type="text" placeholder="Enter your partner's name" id="name2">
+            </div>
+            <button onclick="calculateLove()" class="calculator-button">Calculate</button>
+        </div>
+        <div id="calculator-result">Result</div>
+    </div>
+    <script src="script/index.js"></script>
+</body>
+</html>
